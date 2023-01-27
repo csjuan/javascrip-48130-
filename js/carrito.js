@@ -100,8 +100,8 @@ function renderCardCarritoTotal() {
             <tr class="trTotalCar">
                 <th>Envio a domicilio</th>
                 <td>
-                <label for="CheckBoxEnvio"><span>ARS$${300}</span></label>
-                <input id="checkBoxEnvio" type="checkbox" name="CheckBoxEnvio" value="${300}">
+                <label for="CheckBoxEnvio"><span>ARS$${1200}</span></label>
+                <input id="checkBoxEnvio" type="checkbox" name="CheckBoxEnvio" value="${1200}">
                 </td>
             </tr>
             <tr class="trTotal">
