@@ -29,7 +29,7 @@ function renderJuegoHTML(game) {
             position: "right",
             style:
             {
-                background: "linear-gradient(to right, rgb(11 81 183), rgb(33 67 114))",
+                background: "linear-gradient(to right, #3939394a, rgb(33 67 114))",
             }
 
         }).showToast();
@@ -68,9 +68,8 @@ function MostrarCatalogo(catalogoContenedor, propiedadObjeto, textoBuscador = ''
     if (catalogoContenedor.innerHTML === '') {
         catalogoContenedor.innerHTML = `
         <div class="notFoundGame animate__animated animate__fadeIn">
-            <h2>No se han encontrado resultados</h2>
-            <img src="img/mario.gif" style="width: 5rem" alt="...">
-            <img src="img/404error.webp" alt="">
+            <h2>sin resultados</h2>
+            <img src="img/broken.png" alt="">
         </div>`
     }
 }
